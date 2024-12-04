@@ -3,9 +3,9 @@ from openai.types.chat.chat_completion import ChatCompletion
 
 import os
 import openai
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 
 FIREWORKS_BASE_URL = "https://api.fireworks.ai/inference/v1"
 OPENAI_BASE_URL = None
